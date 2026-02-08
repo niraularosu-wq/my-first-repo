@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chimpu</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            height: 80px;
+            width:100%;
+            background-color: gray ;  
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 3px solid black;
+
+        }
+        .logo img{
+            height: 90px;
+            padding: 5%
+        }
+        .navigation{
+            color: white;
+            font-size: 18px;
+            gap: 15px;
+            display: flex;
+            
+        }
+        .navigation{
+            list-style-type: none;
+        }
+        .menu{
+            height: 100vh;
+            width: 90px;
+            background-color: gray;
+            color:white;
+            text-align: center;
+            border-right:3px solid black;
+            
+            
+
+        }
+
+        .search input{
+            padding: 10px;
+            border-radius: 20px;
+            border: none;
+            width: 200px;
+        }
+        .menu li{
+            padding-bottom: 20px;
+            font-size: 15;
+        }
+
+    </style>
+    <nav>
+        <div class="logo">
+            <img src="lofo.png" alt="chimpu">
+        </div>
+        <div class="navigation">
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+            <li>gallery</li>
+            <li>instruments</li>
+            <li>notes</li>
+        </div>
+
+        <div class="search">
+            <input type="text"  placeholder="search...">
+        </div>
+        <div class="login">
+
+            <button>login</button>
+            <button>sign up</button>
+        </div>
+    </nav>
+    <div class="menu">
+        <li style="padding-top: 25px;">settings</li>
+        <li>purchase</li>
+        <li>tutorials</li>
+    </div>
+</body>
+</html>
